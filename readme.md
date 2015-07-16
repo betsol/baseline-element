@@ -4,7 +4,7 @@
 [![npm version](https://badge.fury.io/js/baseline-element.svg)](http://badge.fury.io/js/baseline-element)
 
 
-This JavaScript library provides a way to fix an issue with responsive images that is used in vertical rhythm layouts.
+This JavaScript library provides a way to fix an issue with responsive images that are used in vertical rhythm layouts.
 
 
 ## Demos and examples
@@ -19,7 +19,7 @@ To do.
 `bower install --save baseline-element`
 
 
-### Install library with NPM
+### Install library with npm
 
 `npm install --save baseline-element`
 
@@ -124,5 +124,5 @@ THE SOFTWARE.
   [so-ask]:    http://stackoverflow.com/questions/ask?tags=javascript
   [email]:     mailto:s.fomin@betsol.ru
   [new-issue]: https://github.com/betsol/baseline-element/issues/new
-  [gh-pages]:  http://betsol.github.io/baseline-element/
+  [repo-gh]:   https://github.com/betsol/baseline-element
   [gulp]:      http://gulpjs.com/

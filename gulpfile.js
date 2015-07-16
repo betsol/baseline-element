@@ -31,18 +31,18 @@ gulp.task('clean', function (callback) {
 
 gulp.task('build', ['clean'], function () {
 
-  var header = fs.readFileSync('src/header.js', 'utf8');
+  var banner = fs.readFileSync('src/header.js', 'utf8');
 
   gulp
     .src([
       './src/index.js'
     ])
     .pipe(concat('baseline-element.js'))
-    .pipe(header(header, { pkg : pkg } ))
+    .pipe(header(banner, { pkg : pkg } ))
     .pipe(gulp.dest('dist'))
     .pipe(uglify())
     .pipe(rename('baseline-element.min.js'))
-    .pipe(header(header, { pkg : pkg } ))
+    .pipe(header(banner, { pkg : pkg } ))
     .pipe(gulp.dest('dist'))
     .on('error', gutil.log)
   ;

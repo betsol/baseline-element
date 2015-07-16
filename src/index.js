@@ -1,5 +1,7 @@
 (function (window, $) {
 
+  'use strict';
+
   var items = [];
   var initialized = false;
 

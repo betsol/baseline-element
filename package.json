@@ -1,9 +1,18 @@
 {
   "name": "baseline-element",
   "description": "JavaScript library to fix responsive images in vertical rhythm environments",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "homepage": "https://github.com/betsol/baseline-element",
   "license": "MIT",
+  "keywords": [
+    "baseline",
+    "vertical-rhythm",
+    "typography",
+    "layout",
+    "image",
+    "jquery",
+    "zepto"
+  ],
   "main": "dist/baseline-element.js",
   "devDependencies": {
     "del": "~0",

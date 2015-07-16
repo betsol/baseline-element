@@ -1,7 +1,7 @@
 {
     "name": "baseline-element",
     "description": "JavaScript library to fix responsive images in vertical rhythm environments",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "main": "dist/baseline-element.js",
     "ignore" : [
         "src",

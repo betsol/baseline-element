@@ -1,6 +1,6 @@
 /**
  * baseline-element - JavaScript library to fix responsive images in vertical rhythm environments
- * @version v1.0.0
+ * @version v1.0.1
  * @link https://github.com/betsol/baseline-element
  * @license MIT
  *

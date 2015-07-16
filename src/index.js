@@ -34,6 +34,7 @@
     if (!initialized) {
       initialize();
     }
+    element.style.display = 'block';
     element.style.objectFit = 'cover';
     element.style.width = '100%';
     var item = {

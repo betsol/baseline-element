@@ -1,0 +1,14 @@
+{
+    "name": "baseline-element",
+    "description": "JavaScript library to fix responsive images in vertical rhythm environments",
+    "version": "1.0.0",
+    "main": "dist/baseline-element.js",
+    "ignore" : [
+        "src",
+        ".*",
+        "gulpfile.js",
+        "package.json"
+    ],
+    "dependencies": {
+    }
+}

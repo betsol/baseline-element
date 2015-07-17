@@ -2,6 +2,8 @@
 // DEPENDENCIES //
 //==============//
 
+var pkg = require('./package.json');
+
 var del = require('del');
 var gulp = require('gulp');
 var rename = require('gulp-rename');
@@ -10,7 +12,7 @@ var gutil = require('gulp-util');
 var concat = require('gulp-concat');
 var header = require('gulp-header');
 var fs = require('fs');
-var pkg = require('./package.json');
+var deploy = require('gulp-gh-pages');
 
 //=========//
 // GLOBALS //
@@ -46,6 +48,19 @@ gulp.task('build', ['clean'], function () {
     .pipe(gulp.dest('dist'))
     .on('error', gutil.log)
   ;
+});
+
+
+//=======//
+// DEMOS //
+//=======//
+
+gulp.task('demo-deploy', function () {
+  return gulp.src('./demo/**/*.*')
+    .pipe(debug({
+      title: 'Deploy'
+    }))
+    .pipe(deploy());
 });
 
 

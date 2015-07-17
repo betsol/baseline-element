@@ -13,6 +13,7 @@ var concat = require('gulp-concat');
 var header = require('gulp-header');
 var fs = require('fs');
 var deploy = require('gulp-gh-pages');
+var debug = require('gulp-debug');
 
 //=========//
 // GLOBALS //

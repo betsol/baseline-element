@@ -9,7 +9,7 @@ This JavaScript library provides a way to fix an issue with responsive images th
 
 ## Demos and examples
 
-To do.
+[Please see our demo.][demo]
 
 
 ## Installation
@@ -27,7 +27,7 @@ To do.
 ### Add library to your page
 
 ``` html
-<script src="/bower_components/baseline-element/dist/baseline-element.js"></script>
+<script src="dist/baseline-element.js"></script>
 ```
 
 You should use minified version (`baseline-element.min.js`) in production.
@@ -93,7 +93,7 @@ Thank you!
 
 ## Credits
 
-Thanks to Vladimir Gaintsev for great implementation ideas and thorough testing!
+Thanks to Vladimir Gaintsev for great implementation ideas, thorough testing and [beautiful demo page][demo]!
 
 
 ## License
@@ -120,9 +120,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
+
   [changelog]: changelog.md
   [so-ask]:    http://stackoverflow.com/questions/ask?tags=javascript
   [email]:     mailto:s.fomin@betsol.ru
   [new-issue]: https://github.com/betsol/baseline-element/issues/new
   [repo-gh]:   https://github.com/betsol/baseline-element
   [gulp]:      http://gulpjs.com/
+  [demo]:      http://betsol.github.io/baseline-element/

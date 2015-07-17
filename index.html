@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Baseline Element Demo</title>
+        <link rel="stylesheet" href="css/demo.css">
+    </head>
+    <body>
+
+        <div class="main">
+            <h1>Baseline Element Demo</h1>
+            <p>Welcome to the Baseline Element Demo!</p>
+            <h3>Example One Column</h3>
+            <img src="images/3.jpeg" alt="Baseline Element Demo" class="baseline-image">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dignissimos voluptas reiciendis pariatur fugiat, veniam facilis adipisci laudantium, optio eaque ad perferendis qui accusamus at nisi ea culpa magni cupiditate.</p>
+            <h3>Example Two Columns</h3>
+            <div class="row">
+                <div class="col-50">
+                    <img src="images/1.jpeg" alt="Baseline Element Demo" class="baseline-image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A, facere delectus, odit quis suscipit eius molestiae neque officia expedita commodi quasi sed ut? Rem ab, accusantium dolor, illo nemo delectus.</p>
+                    <img src="images/4.jpeg" alt="Baseline Element Demo" class="baseline-image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis a eius quis cupiditate soluta error, exercitationem earum necessitatibus dolore placeat beatae quidem provident libero quia quam, officiis perferendis, rerum labore.</p>
+                    <img src="images/6.jpeg" alt="Baseline Element Demo" class="baseline-image">
+                </div>
+                <div class="col-50">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet, id accusamus optio placeat quasi, sapiente minima expedita. Quas, non nisi ratione quam illo laudantium quibusdam, sequi reprehenderit iure? A, aliquid!</p>
+                    <img src="images/2.jpeg" alt="Baseline Element Demo" class="baseline-image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus impedit doloremque eos provident quidem est, ipsum culpa nemo facere animi libero officia voluptas omnis, numquam nulla debitis autem magnam veritatis.</p>
+                    <img src="images/5.jpeg" alt="Baseline Element Demo" class="baseline-image">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dicta eveniet voluptate perferendis recusandae odit perspiciatis aspernatur, sunt eligendi, consequatur id praesentium aliquam culpa architecto debitis amet? Id veniam quo doloremque.</p>
+                    <p>Consectetur adipisicing elit. Eaque nesciunt distinctio itaque consequuntur ipsam laudantium in ullam, nam vitae molestiae, dicta iusto natus minima unde et repellat aperiam. Doloribus, sit?</p>
+                </div>
+            </div>
+            <p class="center">Photo by <a href="https://unsplash.com/" target="_blank">www.unsplash.com</a></p>
+        </div>
+
+        <script src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+        <script src="vendor/baseline-element/baseline-element.js"></script>
+        <script type="text/javascript">
+            var baseline = 24;
+            $('.baseline-image').baselineElement(baseline);
+        </script>
+
+    </body>
+</html>

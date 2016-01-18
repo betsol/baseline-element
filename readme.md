@@ -3,20 +3,20 @@
 [![Bower version](https://badge.fury.io/bo/baseline-element.svg)](http://badge.fury.io/bo/baseline-element)
 [![npm version](https://badge.fury.io/js/baseline-element.svg)](http://badge.fury.io/js/baseline-element)
 
+This JavaScript library provides a way to fix an issue with responsive images that are used in vertical rhythm layouts.
 
 > DEPRECATION NOTICE
 >
 > Thank you everyone! But population census of perfectionists is now officially over.
 >
-> I have a bad news for you: our world is not perfect, we're all will have to find a way to live with it.
+> I have a bad news for you: our world is not perfect and we all will have to find a way to live with it.
 >
 > Sorry for that!
 >
 > And now more seriously: we're not planning to develop this library and the idea of VR in the near future.
-> If you want to take over and maintain this library - please let me know: s.fomin@betsol.ru
+> If you want to take over and maintain this library — please let me know: s.fomin@betsol.ru
+>
 > Cheers!
-
-This JavaScript library provides a way to fix an issue with responsive images that are used in vertical rhythm layouts.
 
 
 ## Demos and examples
